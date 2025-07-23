@@ -9,6 +9,8 @@ import projectGolfClub from '@/assets/project-golf-club.jpg';
 import projectKaffenCafe from '@/assets/project-kaffen-cafe.jpg';
 import projectOldstoryCafe from '@/assets/project-oldstory-cafe.jpg';
 import projectInvoiceAI from '@/assets/project-invoice-ai.jpg';
+import projectPokemon from '@/assets/project-pokemon.jpg';
+
 
 
 const Projects = () => {
@@ -74,6 +76,18 @@ const Projects = () => {
         github: '#',
         demo: 'https://www.linkedin.com/posts/ronitpathak_mernstack-frontend-backend-activity-7233774625489334272-pwlR/?utm_source=share&utm_medium=member_desktop'
       }
+  },
+  {
+    title: 'Pokemon Explorer',
+    description: 'A beautifully responsive Pokémon Explorer web app built with Next.js, TypeScript, and Tailwind CSS, featuring real-time search, detailed Pokémon profiles (images, stats, types, abilities, moves), and full PokeAPI integration. It offers vibrant, type-based theming, smooth animations, and optimized performance across all devices.',
+    image: projectPokemon,
+    icon: Globe,
+    tags: ['Next.js', 'TypeScript', 'PokeAPI', 'Responsive Design'],
+    highlights: ['Real-time search', 'Type-based theming', 'Full PokeAPI integration'],
+    links: {
+      github: '#',
+      demo: '#'
+    }
     },
     {
       title: 'Gesture-Based Screen Controller',
