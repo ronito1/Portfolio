@@ -26,16 +26,16 @@ const About = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 pt-8 border-t border-gray-200">
             <div className="text-center">
-              <div className="text-3xl font-bold text-charcoal mb-2">8+</div>
+              <div className="text-3xl font-bold text-charcoal mb-2">100+</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-charcoal mb-2">2+</div>
+              <div className="text-3xl font-bold text-charcoal mb-2">1+</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-charcoal mb-2">95%</div>
-              <div className="text-gray-600">AI Model Accuracy</div>
+              <div className="text-3xl font-bold text-charcoal mb-2">85% +</div>
+              <div className="text-gray-600">AI Model's Accuracy</div>
             </div>
           </div>
         </div>
