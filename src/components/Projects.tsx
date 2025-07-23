@@ -38,7 +38,7 @@ const Projects = () => {
       links: {
         github: '#',
         demo: 'https://disease-detection-app.vercel.app/',
-        paper: '#'
+        paper: 'https://ijsrem.com/download/krishiraksha-a-disease-and-pest-control-app/'
       }
     },
     {
@@ -50,7 +50,6 @@ const Projects = () => {
       highlights: ['Desktop application', 'NLP integration', 'Theme customization'],
       links: {
         github: '#',
-        demo: '#'
       }
     },
     {
@@ -62,7 +61,6 @@ const Projects = () => {
       highlights: ['PDF summarization', 'Interactive Q&A', 'Document analysis'],
       links: {
         github: '#',
-        demo: '#'
       }
     },
     {
@@ -86,7 +84,7 @@ const Projects = () => {
     highlights: ['Real-time search', 'Type-based theming', 'Full PokeAPI integration'],
     links: {
       github: '#',
-      demo: '#'
+      demo: 'https://poke2-sand.vercel.app/'
     }
     },
     {
@@ -98,7 +96,6 @@ const Projects = () => {
       highlights: ['IoT solution', 'Accessibility focus', 'Hardware integration'],
       links: {
         github: '#',
-        demo: '#'
       }
     },
     {
