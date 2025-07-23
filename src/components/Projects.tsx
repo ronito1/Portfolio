@@ -61,6 +61,8 @@ const Projects = () => {
       highlights: ['PDF summarization', 'Interactive Q&A', 'Document analysis'],
       links: {
         github: '#',
+        demo: 'https://drive.google.com/file/d/1-YSc3KClNcXwXLTmlQ9JDAv8mlE6hyzL/view?usp=sharing'
+
       }
     },
     {
@@ -215,13 +217,15 @@ const Projects = () => {
 
                 {/* Links */}
                 <div className="flex gap-3">
-                  <a
-                    href={project.links.demo}
-                    className="flex items-center gap-2 text-charcoal hover:text-accent-gold transition-colors"
-                  >
-                    <ExternalLink className="h-4 w-4" />
-                    <span className="text-sm font-medium">Demo</span>
-                  </a>
+                {project.links.demo && (
+                    <a
+                      href={project.links.demo}
+                      className="flex items-center gap-2 text-charcoal hover:text-accent-gold transition-colors"
+                    >
+                      <ExternalLink className="h-4 w-4" />
+                      <span className="text-sm font-medium">Demo</span>
+                    </a>
+                  )}
                   {project.links.paper && (
                     <a
                       href={project.links.paper}
