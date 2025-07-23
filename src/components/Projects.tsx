@@ -8,10 +8,25 @@ import projectHorseClub from '@/assets/project-horse-club.jpg';
 import projectGolfClub from '@/assets/project-golf-club.jpg';
 import projectKaffenCafe from '@/assets/project-kaffen-cafe.jpg';
 import projectOldstoryCafe from '@/assets/project-oldstory-cafe.jpg';
+import projectInvoiceAI from '@/assets/project-invoice-ai.jpg';
+
 
 const Projects = () => {
   const projects = [
     {
+      
+        title: 'InvoiceAI – AI-Powered Invoice Analysis',
+        description: 'Leveraging the multimodal capabilities of Gemini Large Language Model, it can analyze any invoice image, understand its unique structure, and dynamically extract its data in a structured format.',
+        image: projectInvoiceAI,
+        icon: FileText,
+        tags: ['AI/ML', 'Gemini LLM', 'Computer Vision', 'Document Processing'],
+        highlights: ['Multimodal AI', 'Invoice analysis', 'Structured data extraction'],
+        links: {
+          github: '#',
+          demo: 'https://invoice-ai-phi.vercel.app/'
+        }
+      },
+      {
       title: 'KrishiRaksha – Disease & Pest Detection',
       description: 'AI-powered crop diagnosis with 95% accuracy, external API integration, and published research (IJSREM).',
       image: projectAI,
