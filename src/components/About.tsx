@@ -5,23 +5,19 @@ const About = () => {
         <div className="space-y-8 reveal-up">
           <h2 className="heading-secondary">About Me</h2>
           
-          <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
-            <p>
-              I'm an <span className="font-semibold text-charcoal">Artificial Intelligence & Software enthusiast</span> with 
-              hands-on experience in building and debugging full-stack applications, integrating APIs, and optimizing 
-              internal workflows.
+         <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+             <p>
+              I'm a <span className="font-semibold text-charcoal">creative technologist and AI enthusiast</span> fueled by a deep curiosity for building things that matter. From architecting full-stack apps and integrating APIs to fine-tuning workflows for speed and efficiency, I love the thrill of solving puzzles that blend code with real-world impact.
             </p>
             
             <p>
-              Skilled in <span className="font-semibold text-charcoal">DSA, Agile collaboration, and system troubleshooting</span>, 
-              I bring a unique blend of technical expertise and problem-solving capabilities to every project.
+              My superpowers? A sharp command of <span className="font-semibold text-charcoal">Data Structures & Algorithms</span>, an instinct for debugging the toughest problems, and a knack for turning collaboration into innovation.
             </p>
             
             <p>
-              Currently pursuing <span className="font-semibold text-charcoal">B.Tech CSE (AI & ML)</span> at Presidency University, 
-              I'm passionate about leveraging cutting-edge technologies to create impactful solutions.
+              As a <span className="font-semibold text-charcoal">B.Tech CSE (AI & ML) undergrad</span>, I live at the intersection of new tech and big ideas—always on the hunt for ways to push boundaries, automate the tedious, and ship AI-powered solutions that actually make a difference. If you thrive on fresh challenges and boundary-breaking projects, let's connect and make something awesome together!
             </p>
-          </div>
+                      </div>
 
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 pt-8 border-t border-gray-200">

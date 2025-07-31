@@ -41,6 +41,18 @@ const Projects = () => {
         paper: 'https://ijsrem.com/download/krishiraksha-a-disease-and-pest-control-app/'
       }
     },
+     {
+      title: 'AI Coding Mentor Chrome Extension',
+      description: 'Chrome extension providing real-time, AI-powered coding hints for LeetCode and HackerRank with Google Gemini API integration for contextual code analysis and step-by-step mentoring.',
+      image: null,
+      icon: Bot,
+      tags: ['Chrome Extension', 'JavaScript', 'Google Gemini API', 'AI Mentoring'],
+      highlights: ['Real-time coding hints', 'Persistent in-page widget', 'Modern/retro UI design'],
+      links: {
+        github: '#',
+        demo: 'https://drive.google.com/file/d/1X3Ol-R3bbyXx43oJxQc58QcQEeaHAFPW/view?usp=sharing'
+      }
+    },
     {
       title: 'PoetryGen – AI Desktop App',
       description: 'PyQt5-based AI poem generator with NLP theme/tone customization.',
