@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Award, Users, Zap, Bot, Globe, Coffee, MapPin, FileText } from 'lucide-react';
+import { ExternalLink, Github, Award, Users, Zap, Bot, Globe, Coffee, MapPin, FileText, Car } from 'lucide-react';
 import projectAI from '@/assets/project-ai.jpg';
 import projectMERN from '@/assets/project-mern.jpg';
 import projectIoT from '@/assets/project-iot.jpg';
@@ -14,7 +14,19 @@ import projectPokemon from '@/assets/project-pokemon.jpg';
 
 
 const Projects = () => {
-  const projects = [
+     const projects = [
+    {
+      title: 'Velocity 3D Car',
+      description: 'Built a 3D car visualisation using HTML, CSS, and JavaScript, incorporating Google\'s 3D modeling tools. Developed interactive features and a responsive user interface to demonstrate 3D web graphics and animation capabilities.',
+      image: null,
+      icon: Car,
+      tags: ['HTML', 'CSS', 'JavaScript', '3D Graphics', 'Google 3D Tools'],
+      highlights: ['3D car visualization', 'Interactive features', 'Responsive UI'],
+      links: {
+        github: '#',
+        demo: 'https://velocity-3dcar.vercel.app/'
+      }
+    }, 
     {
       
         title: 'InvoiceAI – AI-Powered Invoice Analysis',
