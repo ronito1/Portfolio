@@ -44,7 +44,7 @@ const Skills = () => {
               className="portfolio-card p-6 reveal-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <h3 className="heading-tertiary mb-4 text-charcoal">{category.title}</h3>
+              <h3 className="heading-tertiary mb-4 text-charcoal text-center">{category.title}</h3>
               <div className="space-y-3">
                 {category.skills.map((skill) => (
                   <div key={skill} className="skill-badge">

@@ -243,15 +243,18 @@
 
   /* Timeline */
   .timeline-item {
-    @apply relative pl-8 pb-8 border-l-2 border-gray-200;
+    @apply relative pb-8 md:pl-8 md:border-l-2 border-gray-200;
   }
 
-  .timeline-item::before {
-    content: '';
-    @apply absolute -left-2 top-0 w-4 h-4 bg-accent-gold rounded-full;
+  /* Show the timeline dot only on md+ screens */
+  @screen md {
+    .timeline-item::before {
+      content: '';
+      @apply absolute -left-2 top-0 w-4 h-4 bg-accent-gold rounded-full;
+    }
   }
 
   .timeline-item:last-child {
-    @apply border-l-0;
+    @apply md:border-l-0;
   }
 }

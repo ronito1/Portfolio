@@ -4,6 +4,22 @@ const Experience = () => {
   const experiences = [
     {
       type: 'work',
+      title: 'AI Application Developer',
+      company: 'Ranazonai Technologies (FileMyRTI)',
+      location: 'Bangalore, KA',
+      period: 'Aug 2025 – Present',
+      description:
+        'Building AI-powered applications, automations, and robust web systems with a modern stack.',
+      achievements: [
+        'Developed AI apps using Cursor, GPT, LangChain, Next.js, TypeScript, Tailwind',
+        'Integrated Supabase auth and data layer to improve scalability and reliability',
+        'Implemented CI/CD with GitHub Actions for automated tests and deployments',
+        'Built modular Node.js systems to improve extensibility and reduce build errors by 30%',
+        'Ensured reliable releases by proactively fixing critical production issues'
+      ]
+    },
+    {
+      type: 'work',
       title: 'Junior Web Developer',
       company: 'Regortz Digital Marketing',
       location: 'Hybrid',
